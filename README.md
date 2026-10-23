@@ -4,52 +4,69 @@ This package reproduces every number and table in the paper from the public GitS
 There is one script per research question, and `check_paper.py` compares all 99 numbers reported
 in the paper with the computed values.
 
-## Quick check (no dataset needed)
+## Three ways to reproduce the results
 
-The `replication/results/` folder already holds the outputs of our own run. To compare them with the paper:
+| Level | What it does | What you need | Time |
+|---|---|---|---|
+| 1. Check | Compares all 99 numbers in the paper with our results in `replication/results/` | Only this repository | Seconds |
+| 2. Re-run | Recomputes every table and number from the shared database | `paper.db.gz` (664 MB) from this repository's **Releases** page | About 3 minutes |
+| 3. Rebuild | Also rebuilds that database from the raw dataset | The GitSkills dataset (about 44 GB) | About 4 minutes |
+
+All commands are run from inside the `replication/` folder, with Python 3.10 or later (tested with 3.14):
 
 ```bash
 cd replication
 pip install -r requirements.txt
+```
+
+### Level 1: check the numbers
+
+```bash
 python check_paper.py
 ```
 
 Each line prints `PASS` or `FAIL` for one number in the paper; the last line should read
-`99 of 99 numbers match the paper`.
+`99 of 99 numbers match the paper`. It also writes `results/paper_numbers.md`, which lists each
+number, where it appears in the paper, and the script that produces it.
 
-## Full reproduction
+### Level 2: re-run every research question from the shared database
 
-### 1. Set up
+1. Download `paper.db.gz` from the **Releases** page of this repository.
+2. Check that the download is complete; the output must match this checksum:
+   ```bash
+   shasum -a 256 paper.db.gz      # on Linux: sha256sum paper.db.gz
+   # bb00e7a34d713453d64b982b0d1519fb058203befd84e599b1d38f955bfd3d59
+   ```
+3. Unpack it into `replication/data/`:
+   ```bash
+   mkdir -p data
+   gunzip -c /path/to/paper.db.gz > data/paper.db
+   ```
+4. Run the research questions one by one (see *Each research question* below), or all at once
+   with `bash run_all.sh`, which skips the extraction step when the dataset is not present.
 
-- Python 3.10 or later (tested with 3.14): `pip install -r requirements.txt` (PyYAML, SciPy)
-- The GitSkills dataset, `agent_skills_release.db` (about 44 GB), from Destefanis et al.,
-  *GitSkills: A dataset of agent skills on GitHub* (MSR 2027; arXiv:2608.10906)
-- About 2 GB of free disk space and, ideally, 8 CPU cores
+`paper.db` (1.5 GB unpacked) is derived from GitSkills. It contains no full skill texts, commit
+messages, or author names: only each skill's fingerprint, name, description, header settings and
+extracted commands; where each file sits (repository and path); and each repository's stars and
+main language.
 
-Put `agent_skills_release.db` in the same folder as this README (next to `replication/`), or
-tell the scripts where it is:
+### Level 3: rebuild everything from the GitSkills dataset
 
-```bash
-export GITSKILLS_DB=/path/to/agent_skills_release.db
-```
+1. Get `agent_skills_release.db` (about 44 GB) from Destefanis et al., *GitSkills: A dataset of
+   agent skills on GitHub* (MSR 2027; arXiv:2608.10906). Put it in the same folder as this README
+   (next to `replication/`), or tell the scripts where it is:
+   `export GITSKILLS_DB=/path/to/agent_skills_release.db`. The dataset is only ever opened read-only.
+2. Build `data/paper.db` (about 2.5 minutes on an 8-core desktop; about 2 GB of disk space):
+   ```bash
+   python step0_extract.py
+   ```
+   A rebuilt `paper.db` can differ byte for byte from the shared one, because rows are written in
+   parallel and in varying order, but it gives exactly the same results.
+3. Run the research questions as below, or everything at once with `bash run_all.sh`.
 
-The dataset is only ever opened read-only.
+## Each research question (Levels 2 and 3)
 
-### 2. Extract the data once (required before any research question)
-
-All commands below are run from inside the `replication/` folder:
-
-```bash
-cd replication
-python step0_extract.py
-```
-
-This reads the dataset once (about 2.5 minutes on an 8-core desktop) and builds
-`replication/data/paper.db`, which every research question below uses. You only need to run it once.
-
-### 3. Reproduce a research question
-
-Each research question can be run on its own, in any order, once step 2 is done.
+Each script can be run on its own, in any order, once `data/paper.db` exists.
 
 **Dataset (Section III-A)** — about 20 seconds
 ```bash
@@ -90,7 +107,7 @@ Outputs:
 - `results/rq3_copies.txt` → the numbers in the RQ3 text (receiving repositories), plus the
   check with descriptions of at least 100 characters
 
-### 4. Verify
+### Verify
 
 ```bash
 python check_paper.py
@@ -98,8 +115,8 @@ python check_paper.py
 Compares every number in the paper with your results and writes `results/paper_numbers.md`,
 which lists each number, where it appears in the paper, and the script that produces it.
 
-To run steps 2–4 in one go: `bash run_all.sh` (set `PYTHON=/path/to/python` to choose the
-interpreter). The whole run takes about 4 minutes.
+`bash run_all.sh` runs everything in one go: the extraction (only when the dataset is present),
+every research question, and the check. Set `PYTHON=/path/to/python` to choose the interpreter.
 
 ## Repository layout
 
@@ -125,7 +142,7 @@ replication/
   requirements.txt          Python packages
 ```
 
-The dataset (`agent_skills_release.db`) is not included; see *Set up*. Other folders in our working
+The dataset (`agent_skills_release.db`) is not included; see *Level 3*. Other folders in our working
 copy (`paper/` with the LaTeX source, `archive/` with earlier explorations) are not part of the
 package and are not needed to reproduce the results.
 
