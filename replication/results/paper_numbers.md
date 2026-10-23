@@ -79,11 +79,15 @@
 | Table V | no-approval: at most | 52.2% | `rq3_copies.py` (No-approval skills: at most) |
 | IV-C RQ3 | no-approval: receiving repositories | 1340 | `rq3_copies.py` (No-approval skills: receiving repositories) |
 | Table V | edited copies of unguarded skills | 1117 | `rq3_copies.py` (edited copies of unguarded skills) |
-| Table V | ... same pre-approvals | 96.2% | `rq3_copies.py` (edited copies of unguarded skills) |
 | Table V | ... manual-start added | 2.6% | `rq3_copies.py` (edited copies of unguarded skills) |
+| Table V | ... with pre-approvals | 177 | `rq3_copies.py` (edited copies of unguarded skills) |
+| Table V | ... same pre-approvals | 78.5% | `rq3_copies.py` (edited copies of unguarded skills) |
+| IV-C RQ3 | ... widened pre-approvals | 12.4% | `rq3_copies.py` (edited copies of unguarded skills) |
+| IV-C RQ3 | ... narrowed pre-approvals | 8.5% | `rq3_copies.py` (edited copies of unguarded skills) |
 | Table V | edited copies of no-approval skills | 165 | `rq3_copies.py` (edited copies of no-approval skills) |
-| Table V | ... same pre-approvals | 77.0% | `rq3_copies.py` (edited copies of no-approval skills) |
 | Table V | ... manual-start added | 2.4% | `rq3_copies.py` (edited copies of no-approval skills) |
+| Table V | ... with pre-approvals | 165 | `rq3_copies.py` (edited copies of no-approval skills) |
+| Table V | ... same pre-approvals | 77.0% | `rq3_copies.py` (edited copies of no-approval skills) |
 | Table I | Build, test & packages | ['16.8%', '23.6%', 'npm install'] | `rq1_commands.py` (type Build, test & packages) |
 | Table I | Interpreters & scripts | ['15.9%', '17.4%', 'python3'] | `rq1_commands.py` (type Interpreters & scripts) |
 | Table I | File & text utilities | ['12.4%', '15.4%', 'grep'] | `rq1_commands.py` (type File & text utilities) |

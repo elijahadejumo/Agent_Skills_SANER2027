@@ -26,7 +26,7 @@ cd replication
 python check_paper.py
 ```
 
-It prints `PASS` or `FAIL` for each number and should end with `99 of 99 numbers match the paper`.
+It prints `PASS` or `FAIL` for each number and should end with `103 of 103 numbers match the paper`.
 
 ## Code
 

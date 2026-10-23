@@ -107,20 +107,32 @@ def main():
             widened = pct(sum(v["grants"] > o["grants"] for o, v in E), len(E))
             added = pct(sum(v["guarded"] and not o["guarded"] for o, v in E), len(E))
             still = pct(sum(v[key] for _, v in E), len(E))
+            # a skill without pre-approvals has nothing to keep, so pre-approvals are also compared
+            # only for pairs whose earliest version pre-approved at least one command
+            P = [(o, v) for o, v in E if o["grants"]]
+            p_same = pct(sum(o["grants"] == v["grants"] for o, v in P), len(P))
+            p_narrowed = pct(sum(v["grants"] < o["grants"] for o, v in P), len(P))
+            p_widened = pct(sum(v["grants"] > o["grants"] for o, v in P), len(P))
             tag = " (long descriptions only)" if only_long else ""
             r.say(f"   {label + tag:<46} copies {len(E):>6,} | same pre-approvals {same:>6} | narrowed {narrowed:>5}"
                   f" | widened {widened:>5} | manual-start added {added:>5} | still risky {still:>6}")
+            r.say(f"   {'   ... earliest version had pre-approvals':<46} copies {len(P):>6,} | same pre-approvals "
+                  f"{p_same:>6} | narrowed {p_narrowed:>5} | widened {p_widened:>5}")
             if not only_long:
-                rows.append([f"{label} (edited copies)", len(E), same, added])
+                rows.append([f"{label} (edited copies)", len(E), added, len(P), p_same])
             r.keep(f"edited copies of {label.lower()}{tag}", {"copies": len(E), "same pre-approvals": same,
                                                                "narrowed": narrowed, "widened": widened,
-                                                               "manual-start added": added, "still risky": still})
+                                                               "manual-start added": added, "still risky": still,
+                                                               "with pre-approvals": len(P),
+                                                               "with pre-approvals: same": p_same,
+                                                               "with pre-approvals: narrowed": p_narrowed,
+                                                               "with pre-approvals: widened": p_widened})
     with open(RESULTS / "table5_inherited.csv", "w", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["group", "skills", "installations", "from another owner (at least)", "at most", "receiving repos"])
         w.writerows(rows[:3])
         w.writerow([])
-        w.writerow(["edited copies of", "copies", "same pre-approvals", "manual-start added"])
+        w.writerow(["edited copies of", "copies", "manual-start added", "with pre-approvals", "same pre-approvals"])
         w.writerows(rows[3:])
     r.write()
 
