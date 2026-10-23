@@ -14,11 +14,8 @@ Install the Python packages:
 pip install -r replication/requirements.txt
 ```
 
-Put `agent_skills_release.db` in this folder (next to `replication/`), or tell the scripts where it is:
-
-```bash
-export GITSKILLS_DB=/path/to/agent_skills_release.db
-```
+Download `agent_skills_release.db` and put it in this folder, next to `replication/`. The scripts
+read it from there.
 
 ## How to run
 
