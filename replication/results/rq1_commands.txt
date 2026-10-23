@@ -1,0 +1,38 @@
+=== SKILLS THAT PRESCRIBE COMMANDS ===
+   all                   1,624,613 skills | prescribe a command   660,178 (40.6%) | distinct commands  68,102 | outside action  63,517 (3.9%)
+   Claude Code folders     243,833 skills | prescribe a command   123,126 (50.5%) | distinct commands  21,050 | outside action  16,763 (6.9%)
+   other folders         1,380,780 skills | prescribe a command   537,052 (38.9%) | distinct commands  55,588 | outside action  46,754 (3.4%)
+   outside action, Claude Code vs other folders: OR = 2.11 [2.07, 2.15], V = 0.064
+
+=== TABLE I: COMMANDS BY TYPE (share of skills) ===
+   type                             all  Claude Code   other   most used (all skills)
+   Build, test & packages         16.8%        23.6%   15.6%   npm install, pip install, npm run
+   Interpreters & scripts         15.9%        17.4%   15.6%   python3, python, node
+   File & text utilities          12.4%        15.4%   11.8%   grep, mkdir, cat
+   Version control                 9.4%        15.2%    8.4%   git diff, git log, git add
+   Network clients                 5.2%         5.1%    5.2%   curl, ssh, http
+   Code hosting                    3.6%         6.4%    3.1%   gh pr view, gh pr create, gh api
+   Cloud & online services         2.1%         2.1%    2.1%   membrane, terraform plan, gws
+   System & processes              2.1%         2.5%    2.0%   sleep, kill, tmux
+   Containers & orchestration      1.7%         2.3%    1.5%   docker compose, docker run, kubectl get
+   AI agent CLIs                   1.1%         1.1%    1.1%   claude, codex, gemini
+   Other tools                     0.9%         1.2%    0.8%   openclaw, openspec, bd
+   Media & documents               0.6%         0.6%    0.6%   ffmpeg, pdftoppm, pandoc
+   Browser automation              0.6%         1.0%    0.6%   playwright, agent-browser, playwright-cli
+   Security tools                  0.6%         0.5%    0.6%   openssl, nmap, pip-audit
+   Databases & migrations          0.5%         0.9%    0.4%   sqlite3, psql, prisma migrate dev
+
+=== TABLE II: OUTSIDE ACTIONS BY KIND (all skills) ===
+   Push code, open PRs or issues      50,501    3.1%
+   Deploy                              9,774    0.6%
+   Migrate databases                   2,466    0.2%
+   Publish packages                    2,272    0.1%
+   Send messages                         904    0.1%
+   Any outside action                 63,517    3.9%   (a skill can include more than one kind)
+
+=== MOST COMMON COMMANDS ===
+   all: python3 4.7%, curl 4.6%, python 4.5%, grep 4.5%, git diff 3.1%, npm install 3.0%, pip install 2.7%, mkdir 2.5%, cat 2.5%, node 2.5% | git push is #18
+   Claude Code folders: grep 6.3%, git diff 5.3%, npm run 4.6%, git log 4.6%, python3 4.4%, curl 4.4%, python 4.3%, git add 4.1%, git status 3.9%, git commit 3.8% | git push is #11
+
+=== REVIEWED NAMES: used by >= 333 skills (0.02%) ===
+   581 names covering 78.8% of command uses: 342 program, 48 shell grammar, 191 not a command, 0 unreviewed

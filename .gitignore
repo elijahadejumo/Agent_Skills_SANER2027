@@ -1,0 +1,9 @@
+# large or generated files: never commit
+replication/data/
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+*.log
+.venv/
+.DS_Store

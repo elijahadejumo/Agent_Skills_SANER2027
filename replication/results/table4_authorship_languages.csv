@@ -1,0 +1,15 @@
+group,skills,outside action,unguarded,no-approval
+Agent-written,129139,7.0%,90.3%,1.01%
+No agent trace,271644,4.5%,92.2%,0.56%
+Odds ratio,,1.58,0.79,1.81
+Python,627125,2.9%,95.8%,0.35%
+TypeScript,284327,4.6%,93.7%,0.57%
+JavaScript,135222,3.2%,94.2%,0.36%
+No detected language,135156,3.1%,95.4%,0.31%
+Shell,120313,7.1%,92.3%,1.16%
+HTML,97604,3.5%,95.0%,0.44%
+Rust,31925,6.4%,93.8%,0.73%
+Go,30014,6.2%,92.7%,0.61%
+C#,22348,3.8%,94.2%,0.26%
+PowerShell,13011,3.6%,96.0%,0.27%
+Cramer's V,,0.067,0.055,0.034

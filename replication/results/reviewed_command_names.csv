@@ -1,0 +1,582 @@
+name,skills,label,type,effect
+git,150308,program,Version control,read-only
+npm,97226,program,"Build, test & packages",execute code
+echo,77898,shell grammar,,
+python3,76531,program,Interpreters & scripts,execute code
+curl,74177,program,Network clients,network (read / arg-dependent)
+python,73029,program,Interpreters & scripts,execute code
+grep,72355,program,File & text utilities,read-only
+gh,57169,program,Code hosting,network (read / arg-dependent)
+cd,57138,shell grammar,,
+pip,46271,program,"Build, test & packages",execute code
+if,44575,shell grammar,,
+mkdir,40852,program,File & text utilities,local write
+cat,40416,program,File & text utilities,read-only
+node,40335,program,Interpreters & scripts,execute code
+bash,38766,program,Interpreters & scripts,execute code
+then,36433,shell grammar,,
+fi,36200,shell grammar,,
+head,35081,program,File & text utilities,read-only
+for,33919,shell grammar,,
+export,33076,shell grammar,,
+done,32416,shell grammar,,
+do,32191,shell grammar,,
+ls,30841,program,File & text utilities,read-only
+jq,29867,program,File & text utilities,read-only
+uv,29222,program,"Build, test & packages",execute code
+rm,25759,program,File & text utilities,local write
+pnpm,23208,program,"Build, test & packages",execute code
+eof,22284,shell grammar,,
+cp,21078,program,File & text utilities,local write
+else,20257,shell grammar,,
+find,19721,program,File & text utilities,read-only
+docker,19103,program,Containers & orchestration,execute code
+exit,17938,shell grammar,,
+tail,16990,program,File & text utilities,read-only
+sed,16920,program,File & text utilities,read-only
+brew,16500,program,"Build, test & packages",read-only
+cargo,16224,program,"Build, test & packages",execute code
+go,15435,program,"Build, test & packages",execute code
+bun,14988,program,"Build, test & packages",execute code
+import,14936,not a command,,
+source,14360,shell grammar,,
+true,14332,shell grammar,,
+wc,14246,program,File & text utilities,read-only
+make,13554,program,"Build, test & packages",execute code
+sort,13396,program,File & text utilities,read-only
+tr,12387,program,File & text utilities,read-only
+awk,10451,program,File & text utilities,read-only
+rev-parse,9844,program,Version control,read-only
+sleep,9684,program,System & processes,execute code
+break,9453,shell grammar,,
+dotnet,9236,program,"Build, test & packages",execute code
+while,9015,shell grammar,,
+claude,8859,program,AI agent CLIs,execute code
+xargs,8829,program,File & text utilities,read-only
+set,8652,shell grammar,,
+elif,8369,shell grammar,,
+open,8253,program,File & text utilities,read-only
+from,7960,not a command,,
+chmod,7957,program,File & text utilities,local write
+kubectl,7284,program,Containers & orchestration,network (read / arg-dependent)
+touch,7095,program,File & text utilities,local write
+cut,7072,program,File & text utilities,read-only
+branch,6932,not a command,,
+skills,6920,not a command,,
+get,6858,not a command,,
+mv,6772,program,File & text utilities,local write
+test,6510,shell grammar,,
+case,6379,shell grammar,,
+esac,6191,shell grammar,,
+rg,6018,program,File & text utilities,read-only
+printf,5978,shell grammar,,
+playwright,5976,program,Browser automation,execute code
+tsc,5897,program,"Build, test & packages",execute code
+aws,5852,program,Cloud & online services,network (read / arg-dependent)
+systemctl,5611,program,System & processes,local write
+ssh,5600,program,Network clients,network (read / arg-dependent)
+eval,5523,shell grammar,,
+pytest,5457,program,"Build, test & packages",execute code
+which,5272,program,File & text utilities,read-only
+codex,5060,program,AI agent CLIs,execute code
+sh,4898,program,Interpreters & scripts,execute code
+yarn,4894,program,"Build, test & packages",execute code
+return,4869,shell grammar,,
+openclaw,4439,program,Other tools,execute code
+tee,4410,program,File & text utilities,local write
+./gradlew,4087,program,"Build, test & packages",execute code
+az,4045,program,Cloud & online services,network (read / arg-dependent)
+const,3894,not a command,,
+diff,3734,program,File & text utilities,read-only
+tsx,3633,program,Interpreters & scripts,execute code
+gcloud,3582,program,Cloud & online services,network (read / arg-dependent)
+continue,3567,shell grammar,,
+uniq,3520,program,File & text utilities,read-only
+apt,3503,program,"Build, test & packages",read-only
+local,3434,shell grammar,,
+data,3422,not a command,,
+with,3410,not a command,,
+membrane,3395,program,Cloud & online services,network (read / arg-dependent)
+clawhub,3177,program,"Build, test & packages",execute code
+.,3070,shell grammar,,
+apt-get,2993,program,"Build, test & packages",read-only
+pr,2972,not a command,,
+py,2964,program,Interpreters & scripts,execute code
+php,2931,program,Interpreters & scripts,execute code
+kill,2868,program,System & processes,local write
+glab,2859,program,Code hosting,network (read / arg-dependent)
+tar,2797,program,File & text utilities,local write
+mvn,2783,program,"Build, test & packages",execute code
+base64,2757,program,File & text utilities,read-only
+terraform,2754,program,Cloud & online services,network (read / arg-dependent)
+tmux,2747,program,System & processes,execute code
+vitest,2734,program,"Build, test & packages",execute code
+use,2725,not a command,,
+ps,2661,program,System & processes,read-only
+ln,2644,program,File & text utilities,local write
+date,2620,program,File & text utilities,read-only
+...,2575,not a command,,
+ffmpeg,2570,program,Media & documents,local write
+select,2556,shell grammar,,
+read,2532,shell grammar,,
+vercel,2452,program,Cloud & online services,remote write
+.claude/skills/gstack/bin/gstack-update-check,2442,program,Interpreters & scripts,execute code
+http,2430,program,Network clients,network (read / arg-dependent)
+run,2385,not a command,,
+url,2284,not a command,,
+api,2259,not a command,,
+bundle,2245,program,"Build, test & packages",execute code
+composer,2239,program,"Build, test & packages",execute code
+pip3,2228,program,"Build, test & packages",execute code
+select-object,2188,program,File & text utilities,read-only
+ruff,2158,program,"Build, test & packages",execute code
+wget,2148,program,Network clients,network (read / arg-dependent)
+cherry-pick,2134,program,Version control,local write
+lsof,2130,program,System & processes,read-only
+routing,2114,not a command,,
+clarification,2100,not a command,,
+powershell,2092,program,Interpreters & scripts,execute code
+length,2048,not a command,,
+token,2047,not a command,,
+helm,2037,program,Containers & orchestration,network (read / arg-dependent)
+eslint,2035,program,"Build, test & packages",execute code
+agent-browser,2021,program,Browser automation,execute code
+prisma,2019,program,Databases & migrations,network (read / arg-dependent)
+setopt,1952,shell grammar,,
+sqlite3,1930,program,Databases & migrations,local write
+wait,1914,shell grammar,,
+wrangler,1867,program,Cloud & online services,network (read / arg-dependent)
+openssl,1867,program,Security tools,execute code
+psql,1829,program,Databases & migrations,network (read / arg-dependent)
+post,1815,not a command,,
+timeout,1803,program,System & processes,execute code
+s,1790,not a command,,
+file,1785,program,File & text utilities,read-only
+unzip,1773,program,File & text utilities,local write
+pwd,1757,shell grammar,,
+except,1747,not a command,,
+secret,1728,not a command,,
+log,1717,not a command,,
+pkill,1700,program,System & processes,local write
+remote,1674,not a command,,
+conda,1672,program,"Build, test & packages",read-only
+id,1641,not a command,,
+where,1641,not a command,,
+openspec,1638,program,Other tools,execute code
+supabase,1636,program,Cloud & online services,network (read / arg-dependent)
+repo,1632,not a command,,
+d,1625,not a command,,
+just,1624,program,"Build, test & packages",execute code
+def,1593,not a command,,
+pdftoppm,1567,program,Media & documents,local write
+uvx,1557,program,"Build, test & packages",execute code
+where-object,1556,program,File & text utilities,read-only
+and,1526,not a command,,
+path,1525,not a command,,
+gemini,1512,program,AI agent CLIs,execute code
+expo,1488,program,"Build, test & packages",execute code
+hermes,1449,program,AI agent CLIs,execute code
+xcodebuild,1444,program,"Build, test & packages",execute code
+df,1393,program,File & text utilities,read-only
+launchctl,1383,program,System & processes,local write
+pandoc,1357,program,Media & documents,local write
+error,1345,not a command,,
+trap,1331,shell grammar,,
+journalctl,1325,program,System & processes,read-only
+worktree,1324,program,Version control,local write
+gws,1300,program,Cloud & online services,network (read / arg-dependent)
+swift,1295,program,"Build, test & packages",execute code
+nmap,1292,program,Security tools,network (read / arg-dependent)
+bd,1292,program,Other tools,execute code
+foreach-object,1291,program,File & text utilities,read-only
+nodes,1282,not a command,,
+winget,1282,program,"Build, test & packages",read-only
+write-host,1282,shell grammar,,
+pyeof,1281,shell grammar,,
+docker-compose,1271,program,Containers & orchestration,execute code
+java,1258,program,Interpreters & scripts,execute code
+add,1246,not a command,,
+name,1239,not a command,,
+//,1237,not a command,,
+poetry,1230,program,"Build, test & packages",execute code
+flutter,1224,program,"Build, test & packages",execute code
+security,1220,program,System & processes,read-only
+body,1209,not a command,,
+pass,1209,not a command,,
+skillpacks,1208,program,"Build, test & packages",execute code
+stat,1205,program,File & text utilities,read-only
+jest,1191,program,"Build, test & packages",execute code
+du,1187,program,File & text utilities,read-only
+sha256sum,1171,program,File & text utilities,read-only
+cmake,1166,program,"Build, test & packages",execute code
+result,1166,not a command,,
+get-childitem,1165,program,File & text utilities,read-only
+mypy,1162,program,"Build, test & packages",execute code
+try,1146,not a command,,
+delete,1133,not a command,,
+.venv/bin/python,1127,program,Interpreters & scripts,execute code
+next,1117,not a command,,
+the,1115,not a command,,
+rsync,1108,program,Network clients,network (read / arg-dependent)
+end,1107,shell grammar,,
+closes,1105,not a command,,
+adb,1104,program,System & processes,execute code
+new,1104,not a command,,
+pwsh,1101,program,Interpreters & scripts,execute code
+password,1089,not a command,,
+config,1085,not a command,,
+status,1076,not a command,,
+create,1067,not a command,,
+query,1063,not a command,,
+pdftotext,1057,program,Media & documents,local write
+order,1044,not a command,,
+nc,1043,program,Network clients,network (read / arg-dependent)
+mcporter,1041,program,Network clients,network (read / arg-dependent)
+issue,1040,not a command,,
+ss,1024,program,System & processes,read-only
+dig,1020,program,Network clients,network (read / arg-dependent)
+key,1018,not a command,,
+scp,1016,program,Network clients,network (read / arg-dependent)
+uname,996,program,System & processes,read-only
+foreach,987,shell grammar,,
+pip-audit,979,program,Security tools,execute code
+crontab,977,program,System & processes,local write
+playwright-cli,973,program,Browser automation,execute code
+xcrun,972,program,"Build, test & packages",execute code
+function,971,shell grammar,,
+await,970,not a command,,
+nx,961,program,"Build, test & packages",execute code
+prettier,959,program,"Build, test & packages",execute code
+scripts/init_skill.py,951,program,Interpreters & scripts,execute code
+content,945,not a command,,
+g,937,not a command,,
+deno,936,program,Interpreters & scripts,execute code
+show,930,not a command,,
+new-item,929,program,File & text utilities,local write
+llm,920,program,AI agent CLIs,execute code
+req,915,not a command,,
+text,911,not a command,,
+review,910,not a command,,
+lighthouse,896,program,Browser automation,execute code
+remove-item,895,program,File & text utilities,local write
+strings,895,program,File & text utilities,read-only
+mount,893,program,System & processes,local write
+no,893,not a command,,
+put,891,not a command,,
+merge-base,887,program,Version control,read-only
+task,884,not a command,,
+iex,883,program,Interpreters & scripts,execute code
+out-null,880,shell grammar,,
+pipx,877,program,"Build, test & packages",read-only
+json,871,not a command,,
+codesign,869,program,"Build, test & packages",execute code
+basename,867,program,File & text utilities,read-only
+trivy,863,program,Security tools,execute code
+nix,862,program,"Build, test & packages",execute code
+symbolic-ref,857,program,Version control,read-only
+soffice,853,program,Media & documents,local write
+ip,851,program,System & processes,read-only
+r,850,not a command,,
+powershell.exe,846,program,Interpreters & scripts,execute code
+mix,844,program,"Build, test & packages",execute code
+mise,839,program,"Build, test & packages",execute code
+total,839,not a command,,
+line,838,not a command,,
+turbo,837,program,"Build, test & packages",execute code
+p,829,not a command,,
+type,828,shell grammar,,
+netstat,822,program,System & processes,read-only
+select-string,819,program,File & text utilities,read-only
+betterprompt,818,program,Other tools,execute code
+scripts/package_skill.py,812,program,Interpreters & scripts,execute code
+yt-dlp,808,program,Media & documents,network (read / arg-dependent)
+this,804,not a command,,
+pgrep,803,program,System & processes,read-only
+unset,797,shell grammar,,
+osascript,796,program,System & processes,local write
+zip,789,program,File & text utilities,local write
+pre-commit,785,program,"Build, test & packages",execute code
+failed,763,not a command,,
+eas,761,program,Cloud & online services,network (read / arg-dependent)
+semgrep,756,program,Security tools,execute code
+print,750,not a command,,
+let,748,shell grammar,,
+opencode,747,program,AI agent CLIs,execute code
+alembic,745,program,Databases & migrations,network (read / arg-dependent)
+title,744,not a command,,
+remotion,743,program,Media & documents,execute code
+vault,743,program,Cloud & online services,network (read / arg-dependent)
+start,738,not a command,,
+obsidian,735,program,Other tools,execute code
+last,734,not a command,,
+update,731,not a command,,
+auth,726,not a command,,
+build,725,not a command,,
+/,723,not a command,,
+user,721,not a command,,
+ffprobe,720,program,Media & documents,read-only
+drizzle-kit,720,program,Databases & migrations,network (read / arg-dependent)
+raise,716,not a command,,
+alias,704,shell grammar,,
+main,704,not a command,,
+chown,694,program,System & processes,local write
+limit,694,not a command,,
+golangci-lint,690,program,"Build, test & packages",execute code
+patch,685,not a command,,
+unity-mcp-cli,685,program,Other tools,execute code
+infsh,683,program,Other tools,execute code
+mysql,681,program,Databases & migrations,network (read / arg-dependent)
+vite,675,program,"Build, test & packages",execute code
+isresolved,675,not a command,,
+version,672,not a command,,
+hostname,671,program,System & processes,read-only
+fly,671,program,Cloud & online services,network (read / arg-dependent)
+ssh-keygen,670,program,Security tools,local write
+railway,669,program,Cloud & online services,network (read / arg-dependent)
+lark-cli,669,program,Cloud & online services,network (read / arg-dependent)
+free,668,not a command,,
+m,663,not a command,,
+shasum,657,program,File & text utilities,read-only
+ollama,653,program,AI agent CLIs,execute code
+get-content,651,program,File & text utilities,read-only
+sort-object,650,program,File & text utilities,read-only
+gitleaks,646,program,Security tools,execute code
+root,639,not a command,,
+black,637,program,"Build, test & packages",execute code
+describe,637,not a command,,
+until,633,shell grammar,,
+report,633,not a command,,
+dart,629,program,"Build, test & packages",execute code
+code,628,not a command,,
+convertfrom-json,628,program,File & text utilities,read-only
+ping,626,program,Network clients,network (read / arg-dependent)
+api_key,626,not a command,,
+convertto-json,623,program,File & text utilities,read-only
+you,620,not a command,,
+qpdf,620,program,Media & documents,local write
+not,619,not a command,,
+shift,619,shell grammar,,
+./run.sh,612,program,Interpreters & scripts,execute code
+nvidia-smi,610,program,System & processes,read-only
+project,609,not a command,,
+your,609,not a command,,
+gem,608,program,"Build, test & packages",execute code
+jj,605,program,Version control,local write
+pdfimages,598,program,Media & documents,local write
+forge,591,program,"Build, test & packages",execute code
+fix,588,not a command,,
+release,588,not a command,,
+state,582,not a command,,
+prompt,582,not a command,,
+or,580,not a command,,
+headless,580,not a command,,
+search,579,not a command,,
+oc,578,program,Containers & orchestration,network (read / arg-dependent)
+thread,578,not a command,,
+c,577,not a command,,
+tree,576,program,File & text utilities,read-only
+group,575,not a command,,
+pdflatex,575,program,Media & documents,local write
+vim,572,program,File & text utilities,local write
+a,568,not a command,,
+cast,565,program,Cloud & online services,network (read / arg-dependent)
+output,562,not a command,,
+tag,562,not a command,,
+fail,561,not a command,,
+whoami,561,program,System & processes,read-only
+firebase,559,program,Cloud & online services,network (read / arg-dependent)
+out,559,not a command,,
+labels,558,not a command,,
+ffuf,555,program,Security tools,network (read / arg-dependent)
+fixme,551,not a command,,
+xdg-open,549,program,System & processes,execute code
+copy-item,548,program,File & text utilities,local write
+author,546,not a command,,
+latexmk,545,program,Media & documents,local write
+set-content,545,program,File & text utilities,local write
+assert,541,not a command,,
+t,539,not a command,,
+shopify,538,program,Cloud & online services,network (read / arg-dependent)
+cmd,536,not a command,,
+nuclei,536,program,Security tools,network (read / arg-dependent)
+graphify,535,program,Other tools,execute code
+safety,534,not a command,,
+mutation,534,not a command,,
+write,533,not a command,,
+description,532,not a command,,
+findstr,530,program,File & text utilities,read-only
+gog,529,program,Cloud & online services,network (read / arg-dependent)
+nslookup,526,program,Network clients,network (read / arg-dependent)
+hyperframes,525,program,Other tools,execute code
+redis-cli,524,program,Databases & migrations,network (read / arg-dependent)
+keys,524,not a command,,
+qmd,518,program,Other tools,execute code
+.agents/skills/gstack/bin/gstack-update-check,517,program,Interpreters & scripts,execute code
+pdftk,516,program,Media & documents,local write
+bandit,514,program,Security tools,execute code
+dd,513,program,File & text utilities,local write
+samtools,513,program,Other tools,execute code
+bibtex,512,program,Media & documents,local write
+iptables,511,program,System & processes,local write
+list,510,not a command,,
+results,509,not a command,,
+what,509,not a command,,
+rscript,508,program,Interpreters & scripts,execute code
+.id,507,not a command,,
+ufw,506,program,System & processes,local write
+medium,506,not a command,,
+install,505,not a command,,
+script,505,not a command,,
+nano,504,program,File & text utilities,local write
+hashcat,504,program,Security tools,execute code
+./install.sh,502,program,Interpreters & scripts,execute code
+i,502,not a command,,
+start-process,501,program,System & processes,execute code
+all,501,not a command,,
+pm,499,program,Cloud & online services,network (read / arg-dependent)
+bc,498,program,File & text utilities,read-only
+class,496,not a command,,
+sysctl,495,program,System & processes,read-only
+rails,495,program,"Build, test & packages",execute code
+check,495,not a command,,
+top,493,not a command,,
+uvicorn,492,program,Interpreters & scripts,execute code
+.name,489,not a command,,
+gpg,488,program,Security tools,execute code
+lines,487,not a command,,
+dnf,484,program,"Build, test & packages",execute code
+less,484,program,File & text utilities,read-only
+ruby,483,program,Interpreters & scripts,execute code
+sf,479,program,Cloud & online services,network (read / arg-dependent)
+john,479,program,Security tools,execute code
+magick,478,program,Media & documents,local write
+comm,477,program,File & text utilities,read-only
+pbcopy,474,program,File & text utilities,read-only
+rev-list,473,program,Version control,read-only
+msfconsole,473,program,Security tools,network (read / arg-dependent)
+tokens,472,not a command,,
+search-conversations,471,program,Other tools,execute code
+scripts/script.sh,470,program,Interpreters & scripts,execute code
+files,470,not a command,,
+model,469,not a command,,
+zsh,468,program,Interpreters & scripts,execute code
+declare,466,shell grammar,,
+trufflehog,465,program,Security tools,execute code
+sam,463,program,Cloud & online services,network (read / arg-dependent)
+convex,463,program,Cloud & online services,network (read / arg-dependent)
+ts,459,not a command,,
+out-file,459,program,File & text utilities,local write
+reg,458,program,System & processes,local write
+client,456,not a command,,
+spectra,455,program,Other tools,execute code
+ts-node,454,program,Interpreters & scripts,execute code
+biome,451,program,"Build, test & packages",execute code
+invoke-restmethod,451,program,Network clients,network (read / arg-dependent)
+implement,451,not a command,,
+agentuity,448,program,Cloud & online services,network (read / arg-dependent)
+tcpdump,448,program,Security tools,network (read / arg-dependent)
+databricks,446,program,Cloud & online services,network (read / arg-dependent)
+fd,445,program,File & text utilities,read-only
+write-output,441,shell grammar,,
+async,440,not a command,,
+extract,440,not a command,,
+view,440,not a command,,
+tshark,439,program,Security tools,network (read / arg-dependent)
+pm2,437,program,System & processes,execute code
+rand,437,not a command,,
+bearer,435,not a command,,
+import-module,435,program,System & processes,execute code
+agent,433,not a command,,
+html,432,not a command,,
+watch,432,not a command,,
+.env,430,not a command,,
+github.com,430,not a command,,
+xxx,428,not a command,,
+invoke-webrequest,426,program,Network clients,network (read / arg-dependent)
+hf,425,program,Cloud & online services,network (read / arg-dependent)
+copilot,424,program,AI agent CLIs,execute code
+ngrok,422,program,Network clients,network (read / arg-dependent)
+op,422,program,Security tools,execute code
+tailscale,421,program,Network clients,network (read / arg-dependent)
+govulncheck,421,program,Security tools,execute code
+process,421,not a command,,
+start-sleep,421,program,System & processes,execute code
+info,420,not a command,,
+husky,418,program,"Build, test & packages",execute code
+irm,418,program,Network clients,network (read / arg-dependent)
+stripe,412,program,Cloud & online services,network (read / arg-dependent)
+n,411,not a command,,
+when,410,not a command,,
+/plugin,409,not a command,,
+gofmt,409,program,"Build, test & packages",execute code
+src,408,not a command,,
+nvm,407,program,"Build, test & packages",read-only
+./render-graphs.js,404,program,Interpreters & scripts,execute code
+pdfinfo,402,program,Media & documents,read-only
+gradle,401,program,"Build, test & packages",execute code
+summary,401,not a command,,
+xelatex,398,program,Media & documents,local write
+clawdhub,397,program,"Build, test & packages",execute code
+cdk,396,program,Cloud & online services,network (read / arg-dependent)
+xxd,394,program,File & text utilities,read-only
+analyze,393,not a command,,
+ng,393,program,"Build, test & packages",execute code
+session,392,not a command,,
+dpkg,390,program,"Build, test & packages",execute code
+join,386,not a command,,
+sqlmap,385,program,Security tools,network (read / arg-dependent)
+perl,384,program,Interpreters & scripts,execute code
+md5sum,384,program,File & text utilities,read-only
+./mvnw,384,program,"Build, test & packages",execute code
+astro,383,program,"Build, test & packages",execute code
+lorem,383,not a command,,
+killall,381,program,System & processes,local write
+spec,381,not a command,,
+payload,381,not a command,,
+target,381,not a command,,
+doc,380,not a command,,
+gzip,380,program,File & text utilities,local write
+bin/rails,379,program,Interpreters & scripts,execute code
+warn,379,not a command,,
+httpx,378,program,Network clients,network (read / arg-dependent)
+fixes,377,not a command,,
+netlify,375,program,Cloud & online services,network (read / arg-dependent)
+format-table,373,program,File & text utilities,read-only
+seen,373,not a command,,
+ctest,372,program,"Build, test & packages",execute code
+subfinder,372,program,Security tools,network (read / arg-dependent)
+pg_dump,372,program,Databases & migrations,network (read / arg-dependent)
+get-process,371,program,System & processes,read-only
+net,370,program,System & processes,local write
+js,368,not a command,,
+warning,366,not a command,,
+to,363,not a command,,
+yq,362,program,File & text utilities,read-only
+sips,362,program,Media & documents,local write
+exception,361,not a command,,
+host,361,program,Network clients,network (read / arg-dependent)
+analysis,361,not a command,,
+column,358,program,File & text utilities,read-only
+begin,357,shell grammar,,
+production,357,not a command,,
+generated,356,not a command,,
+hack,353,not a command,,
+convert,352,not a command,,
+login,352,not a command,,
+cost,352,not a command,,
+rtk,351,program,Other tools,execute code
+copy,351,not a command,,
+serve,350,not a command,,
+rustup,349,program,"Build, test & packages",read-only
+usermod,349,program,System & processes,local write
+merged,349,not a command,,
+usage,348,not a command,,
+edges,348,not a command,,
+see,344,not a command,,
+podman,344,program,Containers & orchestration,execute code
+shellcheck,342,program,"Build, test & packages",execute code
+dot,338,program,Media & documents,local write
+first,338,not a command,,
+passwd,336,program,System & processes,local write
+unique,336,not a command,,
+verify,335,not a command,,

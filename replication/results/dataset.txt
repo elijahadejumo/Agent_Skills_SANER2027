@@ -1,0 +1,8 @@
+SKILL.md files: 3,797,117 in 282,200 repositories
+distinct skills (fingerprints): 1,877,981; with a valid header: 1,625,701
+distinct skills in .claude/skills folders: 273,721; with commit history: 272,555 (99.6%)
+
+population (distinct skills with a valid header; Claude Code skills also need commit history):
+   Claude Code folders     243,833 skills in   53,935 repositories | with commit history   243,833 (100.0%)
+   other folders         1,380,780 skills in  177,511 repositories | with commit history   156,950 (11.4%)
+   all                   1,624,613 skills in  222,117 repositories | with commit history   400,783 (24.7%)

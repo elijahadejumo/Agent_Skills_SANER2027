@@ -1,0 +1,11 @@
+=== TABLE V (top): INSTALLATIONS FROM ANOTHER OWNER ===
+                           skills  installations  at least  at most  receiving repos  long desc. only
+   All skills           1,624,613      2,795,450     47.7%    57.1%           82,395            45.7%
+   Unguarded skills        59,892         93,678     40.1%    49.7%           10,029            38.6%
+   No-approval skills       8,054         12,130     39.6%    52.2%            1,340            38.7%
+
+=== TABLE V (bottom): EDITED COPIES COMPARED WITH THE EARLIEST VERSION ===
+   Unguarded skills                               copies  1,117 | same pre-approvals  96.2% | narrowed  1.3% | widened  2.4% | manual-start added  2.6% | still risky  85.0%
+   Unguarded skills (long descriptions only)      copies    978 | same pre-approvals  95.8% | narrowed  1.5% | widened  2.6% | manual-start added  2.5% | still risky  83.7%
+   No-approval skills                             copies    165 | same pre-approvals  77.0% | narrowed  9.1% | widened 13.3% | manual-start added  2.4% | still risky  74.5%
+   No-approval skills (long descriptions only)    copies    146 | same pre-approvals  74.7% | narrowed 10.3% | widened 14.4% | manual-start added  2.7% | still risky  71.9%

@@ -1,0 +1,33 @@
+=== TABLE III: SKILLS WITH OUTSIDE ACTIONS AND PRE-APPROVED COMMANDS ===
+   all                  outside action  63,517 | no manual-start option (unguarded)  59,892 (94.3%) | also pre-approved (no-approval)  8,054 (12.7%)
+   Claude Code folders  outside action  16,763 | no manual-start option (unguarded)  15,139 (90.3%) | also pre-approved (no-approval)  2,303 (13.7%)
+
+   skills that only commit locally (git commit, no outside action): 15,621; unguarded 14,794 (94.7%)
+
+=== PRE-APPROVED COMMANDS (all skills) ===
+   list pre-approved tools               170,021 (10.5%)
+   pre-approve every shell command        90,278 (5.6%)
+   pre-approve scoped shell commands      37,556 (2.3%)
+   of 63,517 skills with outside actions, 9,230 (14.5%) pre-approve them, and 8,054 of those are also unguarded (no-approval)
+
+=== TABLE IV: AUTHORSHIP (skills with commit history) AND LANGUAGES (all skills) ===
+   skills with commit history: 400,783; agent-written: 129,139 (32.2%)
+                             skillsoutside action   unguarded no-approval
+   Agent-written            129,139        7.0%       90.3%       1.01%
+   No agent trace           271,644        4.5%       92.2%       0.56%
+      outside action: OR = 1.58 [1.54, 1.62], p = 8.6e-228, V = 0.051
+      unguarded: OR = 0.79 [0.72, 0.87], p = 2.3e-06, V = 0.032
+      no-approval: OR = 1.81 [1.68, 1.95], p = 2.3e-56, V = 0.025
+   Python                   627,125        2.9%       95.8%       0.35%
+   TypeScript               284,327        4.6%       93.7%       0.57%
+   JavaScript               135,222        3.2%       94.2%       0.36%
+   No detected language     135,156        3.1%       95.4%       0.31%
+   Shell                    120,313        7.1%       92.3%       1.16%
+   HTML                      97,604        3.5%       95.0%       0.44%
+   Rust                      31,925        6.4%       93.8%       0.73%
+   Go                        30,014        6.2%       92.7%       0.61%
+   C#                        22,348        3.8%       94.2%       0.26%
+   PowerShell                13,011        3.6%       96.0%       0.27%
+      outside action across languages: V = 0.067, p = 0
+      unguarded across languages: V = 0.055, p = 2.1e-32
+      no-approval across languages: V = 0.034, p = 0

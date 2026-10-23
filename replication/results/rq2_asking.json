@@ -1,0 +1,109 @@
+{
+ "all: outside action": 63517,
+ "all: unguarded": 59892,
+ "all: unguarded share": "94.3%",
+ "all: no-approval": 8054,
+ "all: no-approval share": "12.7%",
+ "Claude Code folders: outside action": 16763,
+ "Claude Code folders: unguarded": 15139,
+ "Claude Code folders: unguarded share": "90.3%",
+ "Claude Code folders: no-approval": 2303,
+ "Claude Code folders: no-approval share": "13.7%",
+ "local commit only": 15621,
+ "local commit only unguarded share": "94.7%",
+ "pre-approval declared": 170021,
+ "pre-approval declared share": "10.5%",
+ "pre-approval shell": 90278,
+ "pre-approval shell share": "5.6%",
+ "pre-approval scoped": 37556,
+ "pre-approval scoped share": "2.3%",
+ "outside action pre-approved": 9230,
+ "outside action pre-approved share": "14.5%",
+ "skills with commit history": 400783,
+ "agent-written": 129139,
+ "agent-written share": "32.2%",
+ "table IV Agent-written": [
+  129139,
+  "7.0%",
+  "90.3%",
+  "1.01%"
+ ],
+ "table IV No agent trace": [
+  271644,
+  "4.5%",
+  "92.2%",
+  "0.56%"
+ ],
+ "authorship outside action: OR": "1.58",
+ "authorship outside action: p": 8.556134999479857e-228,
+ "authorship unguarded: OR": "0.79",
+ "authorship unguarded: p": 2.2583666845695904e-06,
+ "authorship no-approval: OR": "1.81",
+ "authorship no-approval: p": 2.3253584797750584e-56,
+ "table IV Python": [
+  627125,
+  "2.9%",
+  "95.8%",
+  "0.35%"
+ ],
+ "table IV TypeScript": [
+  284327,
+  "4.6%",
+  "93.7%",
+  "0.57%"
+ ],
+ "table IV JavaScript": [
+  135222,
+  "3.2%",
+  "94.2%",
+  "0.36%"
+ ],
+ "table IV No detected language": [
+  135156,
+  "3.1%",
+  "95.4%",
+  "0.31%"
+ ],
+ "table IV Shell": [
+  120313,
+  "7.1%",
+  "92.3%",
+  "1.16%"
+ ],
+ "table IV HTML": [
+  97604,
+  "3.5%",
+  "95.0%",
+  "0.44%"
+ ],
+ "table IV Rust": [
+  31925,
+  "6.4%",
+  "93.8%",
+  "0.73%"
+ ],
+ "table IV Go": [
+  30014,
+  "6.2%",
+  "92.7%",
+  "0.61%"
+ ],
+ "table IV C#": [
+  22348,
+  "3.8%",
+  "94.2%",
+  "0.26%"
+ ],
+ "table IV PowerShell": [
+  13011,
+  "3.6%",
+  "96.0%",
+  "0.27%"
+ ],
+ "languages outside action: V": "0.067",
+ "languages outside action: p": 0.0,
+ "languages unguarded: V": "0.055",
+ "languages unguarded: p": 2.0670789202892285e-32,
+ "languages no-approval: V": "0.034",
+ "languages no-approval: p": 0.0
+}

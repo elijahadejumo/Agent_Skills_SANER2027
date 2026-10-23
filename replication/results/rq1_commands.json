@@ -1,0 +1,145 @@
+{
+ "all: prescribe a command": 660178,
+ "all: prescribe a command share": "40.6%",
+ "all: distinct commands": 68102,
+ "all: outside action": 63517,
+ "all: outside action share": "3.9%",
+ "Claude Code folders: prescribe a command": 123126,
+ "Claude Code folders: prescribe a command share": "50.5%",
+ "Claude Code folders: distinct commands": 21050,
+ "Claude Code folders: outside action": 16763,
+ "Claude Code folders: outside action share": "6.9%",
+ "other folders: prescribe a command": 537052,
+ "other folders: prescribe a command share": "38.9%",
+ "other folders: distinct commands": 55588,
+ "other folders: outside action": 46754,
+ "other folders: outside action share": "3.4%",
+ "outside action, Claude Code vs other: OR": "2.11 [2.07, 2.15]",
+ "type Build, test & packages": {
+  "all": "16.8%",
+  "Claude Code": "23.6%",
+  "other": "15.6%",
+  "most used": "npm install"
+ },
+ "type Interpreters & scripts": {
+  "all": "15.9%",
+  "Claude Code": "17.4%",
+  "other": "15.6%",
+  "most used": "python3"
+ },
+ "type File & text utilities": {
+  "all": "12.4%",
+  "Claude Code": "15.4%",
+  "other": "11.8%",
+  "most used": "grep"
+ },
+ "type Version control": {
+  "all": "9.4%",
+  "Claude Code": "15.2%",
+  "other": "8.4%",
+  "most used": "git diff"
+ },
+ "type Network clients": {
+  "all": "5.2%",
+  "Claude Code": "5.1%",
+  "other": "5.2%",
+  "most used": "curl"
+ },
+ "type Code hosting": {
+  "all": "3.6%",
+  "Claude Code": "6.4%",
+  "other": "3.1%",
+  "most used": "gh pr view"
+ },
+ "type Cloud & online services": {
+  "all": "2.1%",
+  "Claude Code": "2.1%",
+  "other": "2.1%",
+  "most used": "membrane"
+ },
+ "type System & processes": {
+  "all": "2.1%",
+  "Claude Code": "2.5%",
+  "other": "2.0%",
+  "most used": "sleep"
+ },
+ "type Containers & orchestration": {
+  "all": "1.7%",
+  "Claude Code": "2.3%",
+  "other": "1.5%",
+  "most used": "docker compose"
+ },
+ "type AI agent CLIs": {
+  "all": "1.1%",
+  "Claude Code": "1.1%",
+  "other": "1.1%",
+  "most used": "claude"
+ },
+ "type Other tools": {
+  "all": "0.9%",
+  "Claude Code": "1.2%",
+  "other": "0.8%",
+  "most used": "openclaw"
+ },
+ "type Media & documents": {
+  "all": "0.6%",
+  "Claude Code": "0.6%",
+  "other": "0.6%",
+  "most used": "ffmpeg"
+ },
+ "type Browser automation": {
+  "all": "0.6%",
+  "Claude Code": "1.0%",
+  "other": "0.6%",
+  "most used": "playwright"
+ },
+ "type Security tools": {
+  "all": "0.6%",
+  "Claude Code": "0.5%",
+  "other": "0.6%",
+  "most used": "openssl"
+ },
+ "type Databases & migrations": {
+  "all": "0.5%",
+  "Claude Code": "0.9%",
+  "other": "0.4%",
+  "most used": "sqlite3"
+ },
+ "kind remote_vcs": 50501,
+ "kind deploy": 9774,
+ "kind migrate": 2466,
+ "kind publish": 2272,
+ "kind send": 904,
+ "all: git push rank": 18,
+ "all: top commands": [
+  [
+   "python3",
+   "4.7%"
+  ],
+  [
+   "curl",
+   "4.6%"
+  ],
+  [
+   "python",
+   "4.5%"
+  ]
+ ],
+ "Claude Code folders: git push rank": 11,
+ "Claude Code folders: top commands": [
+  [
+   "grep",
+   "6.3%"
+  ],
+  [
+   "git diff",
+   "5.3%"
+  ],
+  [
+   "npm run",
+   "4.6%"
+  ]
+ ],
+ "reviewed names": 581,
+ "reviewed names unreviewed": 0
+}

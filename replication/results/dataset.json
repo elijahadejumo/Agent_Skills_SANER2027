@@ -1,0 +1,16 @@
+{
+ "Claude Code folders: skills": 243833,
+ "Claude Code folders: repositories": 53935,
+ "Claude Code folders: with commit history": 243833,
+ "other folders: skills": 1380780,
+ "other folders: repositories": 177511,
+ "other folders: with commit history": 156950,
+ "all: skills": 1624613,
+ "all: repositories": 222117,
+ "all: with commit history": 400783,
+ "files": 3797117,
+ "repositories": 282200,
+ "distinct skills": 1877981,
+ "Claude Code history coverage": "99.6%",
+ "other folders history coverage": "11.4%"
+}

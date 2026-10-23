@@ -1,0 +1,141 @@
+command,kind,tool,documentation
+gh api delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh api patch,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh api post,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh api put,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh gist create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh gist delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh gist edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue close,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue comment,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue lock,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue pin,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue reopen,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh issue transfer,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh label clone,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh label create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh label delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh label edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr close,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr comment,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr merge,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr ready,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr reopen,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh pr review,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh project create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh project delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh project edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh project item-add,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh project item-edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh release create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh release delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh release edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh release upload,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo archive,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo create,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo edit,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo fork,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo rename,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh repo sync,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh run cancel,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh run delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh run rerun,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh secret delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh secret set,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh variable delete,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh variable set,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh workflow disable,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh workflow enable,code hosting,GitHub CLI,https://cli.github.com/manual/
+gh workflow run,code hosting,GitHub CLI,https://cli.github.com/manual/
+git push,code hosting,Git,https://git-scm.com/docs/git-push
+glab api delete,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab api patch,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab api post,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab api put,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab issue close,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab issue create,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab issue note,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab issue update,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab mr approve,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab mr close,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab mr create,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab mr merge,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab mr note,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab mr update,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+glab release create,code hosting,GitLab CLI,https://docs.gitlab.com/cli/
+cdk deploy,deploying,AWS CDK CLI,https://docs.aws.amazon.com/cdk/v2/guide/cli.html
+cdk destroy,deploying,AWS CDK CLI,https://docs.aws.amazon.com/cdk/v2/guide/cli.html
+firebase deploy,deploying,Firebase CLI,https://firebase.google.com/docs/cli
+fly deploy,deploying,Fly.io flyctl,https://fly.io/docs/flyctl/
+flyctl deploy,deploying,Fly.io flyctl,https://fly.io/docs/flyctl/
+gcloud app deploy,deploying,Google Cloud CLI,https://cloud.google.com/sdk/gcloud/reference
+gcloud functions deploy,deploying,Google Cloud CLI,https://cloud.google.com/sdk/gcloud/reference
+gcloud run deploy,deploying,Google Cloud CLI,https://cloud.google.com/sdk/gcloud/reference
+helm install,deploying,Helm,https://helm.sh/docs/helm/
+helm rollback,deploying,Helm,https://helm.sh/docs/helm/
+helm uninstall,deploying,Helm,https://helm.sh/docs/helm/
+helm upgrade,deploying,Helm,https://helm.sh/docs/helm/
+kubectl annotate,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl apply,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl autoscale,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl cordon,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl create,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl delete,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl drain,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl edit,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl expose,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl label,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl patch,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl replace,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl rollout,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl scale,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl set,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl taint,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+kubectl uncordon,deploying,kubectl,https://kubernetes.io/docs/reference/kubectl/
+netlify deploy,deploying,Netlify CLI,https://cli.netlify.com/
+pulumi destroy,deploying,Pulumi,https://www.pulumi.com/docs/iac/cli/commands/
+pulumi up,deploying,Pulumi,https://www.pulumi.com/docs/iac/cli/commands/
+railway up,deploying,Railway CLI,https://docs.railway.com/reference/cli-api
+sam deploy,deploying,AWS SAM CLI,https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-deploy.html
+serverless deploy,deploying,Serverless Framework,https://www.serverless.com/framework/docs/providers/aws/cli-reference/deploy
+terraform apply,deploying,Terraform,https://developer.hashicorp.com/terraform/cli/commands
+terraform destroy,deploying,Terraform,https://developer.hashicorp.com/terraform/cli/commands
+vercel,deploying,Vercel CLI,https://vercel.com/docs/cli
+vercel deploy,deploying,Vercel CLI,https://vercel.com/docs/cli
+vercel promote,deploying,Vercel CLI,https://vercel.com/docs/cli
+vercel redeploy,deploying,Vercel CLI,https://vercel.com/docs/cli
+vercel remove,deploying,Vercel CLI,https://vercel.com/docs/cli
+vercel rm,deploying,Vercel CLI,https://vercel.com/docs/cli
+vercel rollback,deploying,Vercel CLI,https://vercel.com/docs/cli
+wrangler deploy,deploying,Cloudflare Wrangler,https://developers.cloudflare.com/workers/wrangler/commands/
+wrangler publish,deploying,Cloudflare Wrangler,https://developers.cloudflare.com/workers/wrangler/commands/
+./gradlew publish,publishing,Gradle,https://docs.gradle.org/current/userguide/publishing_setup.html
+bun publish,publishing,Bun,https://bun.sh/docs/cli/publish
+cargo publish,publishing,Cargo,https://doc.rust-lang.org/cargo/commands/cargo-publish.html
+docker push,publishing,Docker,https://docs.docker.com/reference/cli/docker/image/push/
+gem push,publishing,RubyGems,https://guides.rubygems.org/command-reference/
+gradle publish,publishing,Gradle,https://docs.gradle.org/current/userguide/publishing_setup.html
+npm deprecate,publishing,npm,https://docs.npmjs.com/cli/commands/npm-publish
+npm publish,publishing,npm,https://docs.npmjs.com/cli/commands/npm-publish
+npm unpublish,publishing,npm,https://docs.npmjs.com/cli/commands/npm-publish
+pnpm publish,publishing,pnpm,https://pnpm.io/cli/publish
+poetry publish,publishing,Poetry,https://python-poetry.org/docs/cli/
+twine upload,publishing,Twine,https://twine.readthedocs.io/en/stable/
+uv publish,publishing,uv,https://docs.astral.sh/uv/guides/package/
+yarn publish,publishing,Yarn,https://yarnpkg.com/cli/npm/publish
+alembic upgrade,migrating,Alembic,https://alembic.sqlalchemy.org/en/latest/tutorial.html
+drizzle-kit migrate,migrating,Drizzle Kit,https://orm.drizzle.team/docs/kit-overview
+drizzle-kit push,migrating,Drizzle Kit,https://orm.drizzle.team/docs/kit-overview
+flyway migrate,migrating,Flyway,https://documentation.red-gate.com/fd/
+knex migrate:latest,migrating,Knex,https://knexjs.org/guide/migrations.html
+php artisan migrate,migrating,Laravel,https://laravel.com/docs/migrations
+prisma migrate deploy,migrating,Prisma,https://www.prisma.io/docs/orm/reference/prisma-cli-reference
+rails db:migrate,migrating,Ruby on Rails,https://guides.rubyonrails.org/active_record_migrations.html
+sequelize db:migrate,migrating,Sequelize,https://sequelize.org/docs/v6/other-topics/migrations/
+supabase db push,migrating,Supabase CLI,https://supabase.com/docs/reference/cli/supabase-db-push
