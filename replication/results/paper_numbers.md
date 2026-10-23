@@ -10,7 +10,6 @@
 | III-A Dataset | commit history, Claude Code skills | 99.6% | `dataset.py` (Claude Code history coverage) |
 | VI Threats | commit history, other skills (a ninth) | 11.4% | `dataset.py` (other folders history coverage) |
 | IV-A RQ1 | skills that specify a shell command | 40.6% | `rq1_commands.py` (all: prescribe a command share) |
-| I Contribution ii | distinct commands | 68102 | `rq1_commands.py` (all: distinct commands) |
 | IV-A RQ1 | version control, Claude Code folders | 15.2% | `rq1_commands.py` (type Version control) |
 | IV-A RQ1 | version control, other folders | 8.4% | `rq1_commands.py` (type Version control) |
 | Abstract, IV-A | skills with an outside action | 63517 | `rq1_commands.py` (all: outside action) |

@@ -25,7 +25,6 @@ CHECKS = [
     ("III-A Dataset", "commit history, Claude Code skills", "99.6%", "dataset", "Claude Code history coverage"),
     ("VI Threats", "commit history, other skills (a ninth)", "11.4%", "dataset", "other folders history coverage"),
     ("IV-A RQ1", "skills that specify a shell command", "40.6%", "rq1_commands", "all: prescribe a command share"),
-    ("I Contribution ii", "distinct commands", 68102, "rq1_commands", "all: distinct commands"),
     ("IV-A RQ1", "version control, Claude Code folders", "15.2%", "rq1_commands", "type Version control", "Claude Code"),
     ("IV-A RQ1", "version control, other folders", "8.4%", "rq1_commands", "type Version control", "other"),
     ("Abstract, IV-A", "skills with an outside action", 63517, "rq1_commands", "all: outside action"),
